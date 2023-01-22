@@ -1,0 +1,27 @@
+{
+  "name": "market-space",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "~2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "~16.0.3",
+    "express": "~4.16.1",
+    "helmet": "^6.0.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  },
+  "main": "app.js",
+  "keywords": [],
+  "author": "richotaru",
+  "license": "ISC",
+  "description": "Market place API that make endpoints for e-commerce operations available for testing purposes",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
